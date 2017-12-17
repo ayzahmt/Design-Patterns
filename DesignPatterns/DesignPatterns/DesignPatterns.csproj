@@ -47,6 +47,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DesignPatterns.AbstractFactory.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -58,6 +61,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="AbstractFactory\Color\Blue.cs" />
+    <Compile Include="AbstractFactory\MainFactory.cs" />
+    <Compile Include="AbstractFactory\Program.cs" />
+    <Compile Include="AbstractFactory\Shape\Circle.cs" />
+    <Compile Include="AbstractFactory\ColorFactory.cs" />
+    <Compile Include="AbstractFactory\Color\IColor.cs" />
+    <Compile Include="AbstractFactory\Shape\IShape.cs" />
+    <Compile Include="AbstractFactory\Shape\Rectangle.cs" />
+    <Compile Include="AbstractFactory\Color\Red.cs" />
+    <Compile Include="AbstractFactory\ShapeFactory.cs" />
+    <Compile Include="AbstractFactory\Shape\Square.cs" />
+    <Compile Include="AbstractFactory\Color\Yellow.cs" />
     <Compile Include="FactoryMethod\Bus.cs" />
     <Compile Include="FactoryMethod\Fligth.cs" />
     <Compile Include="FactoryMethod\Ticket.cs" />
